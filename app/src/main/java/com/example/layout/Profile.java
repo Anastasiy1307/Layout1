@@ -35,6 +35,7 @@ import java.util.TimeZone;
 
 public class Profile extends AppCompatActivity {
 
+
     private TextView nickname;
     private ImageView icon;
 
@@ -185,6 +186,10 @@ public class Profile extends AppCompatActivity {
     }
     public void Listen (View v) {
         Intent intent = new Intent( this, Listening.class);
+        startActivity(intent);
+    }
+    public void Glav (View v) {
+        Intent intent = new Intent( this, Glavn.class);
         startActivity(intent);
     }
 

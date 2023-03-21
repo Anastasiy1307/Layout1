@@ -15,7 +15,7 @@
         android:layout_marginBottom="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:onClick="Menu"
+        android:onClick="Glav"
         app:srcCompat="@drawable/gallery" />
 
     <ImageView
@@ -100,7 +100,7 @@
         android:layout_width="56dp"
         android:layout_height="59dp"
         android:layout_marginTop="20dp"
-
+        android:onClick="Glav"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
